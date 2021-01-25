@@ -1,0 +1,33 @@
+{"contenido":[
+    {
+        "tag":"saludo",
+        "patrones":["Hola","Un Saludo","Hello","Buenos días","Buenas tardes","Buenas noches","Que tal","Neceito que me ayude"],
+        "respuestas":["Hola que tal, ¿en que puedo ayudarte?","Hola, ¿Cómo te va?","Hola, un gusto de verte, en que puedo ayudarte?","Hola,¿si dime como te sientes?"]
+    },
+    {   "tag":"sintomas",
+        "patrones":["Tengo COVID","tengo sintomas","tengo malestar","dolor","cansancio","me siento mareado","debil","tengo dolor de cabeza","tengo gripa","no tengo sabor a la comida","tengo tos","me falta el aire","tengo fiebre","me siento mal"],
+        "respuestas":["¿aparte de la tos, tienes otro sintoma?","toma paracetamol","¿ya acudiste al doctor?","¿tienes fiebre?"]
+
+    },
+    {
+        "tag":"me siento mal",
+        "patrones":["solo tengo malestar","ok","no","me siento mal","solo tengo tos","no tengo fiebre","¿que puedo tomar?","¿en donde puedo acudir si tengo mas sintomas?","tambien me duele la cabeza"],
+        "respuestas":["toma dos cafiaspirinas","reposa una hora","si te falta oxigeno, acude a rentar un tanque","si no tienes mas sintomas, solo puede ser un resfriado"]
+    },
+   
+
+    {
+        "tag":"despedida",
+        "patrones":["me siento mejor","me estroy recuperansdo","poco resultado","tomare jarabe","gracias"],
+        "respuestas":["eso esta perfecto", "los resultados varea en notarse", "recuerda seguir las intrucciones"]
+    },
+
+    {
+        "tag":"despedida",
+        "patrones":["ok","adios","hasta luego","nos vemos","hasta la proxima","muchas","gracias"],
+        "respuestas":["cuidate","adios", "nos vemos pronto", "te estare esperando","cuidate y recuerda 'sana distancia'",""]
+    }
+
+
+]
+}
